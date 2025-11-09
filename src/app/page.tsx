@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Phone, Github, Linkedin, MessageCircle, MapPin, Calendar, Briefcase, GraduationCap, Code2, Sparkles } from "lucide-react"
+import { Mail, Phone, Github, Linkedin, MessageCircle, MapPin, Calendar, Briefcase, GraduationCap, Code2, Sparkles, Download } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -226,6 +226,12 @@ export default function Home() {
             variants={fadeInUp}
             className="flex flex-wrap justify-center gap-4"
           >
+            <Button size="lg" asChild className="gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+              <a href="/resume-updated.pdf" download="Usama_Ahmed_Resume.pdf">
+                <Download className="h-5 w-5" />
+                Download Resume
+              </a>
+            </Button>
             <Button size="lg" asChild className="gap-2">
               <a href={`mailto:Uusa35@gmail.com`}>
                 <Mail className="h-5 w-5" />
