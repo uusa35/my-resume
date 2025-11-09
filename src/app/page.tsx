@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Phone, Github, Linkedin, MessageCircle, MapPin, Calendar, Briefcase, GraduationCap, Code2 } from "lucide-react"
+import { Mail, Phone, Github, Linkedin, MessageCircle, MapPin, Calendar, Briefcase, GraduationCap, Code2, Sparkles } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -10,6 +10,8 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { AnimatedBackground } from "@/components/animated-background"
 import { BlurryNav } from "@/components/blurry-nav"
 import { ScrollToTop } from "@/components/scroll-to-top"
+import { TechLogos } from "@/components/tech-logos"
+import { GlowingText } from "@/components/glowing-text"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -42,13 +44,14 @@ export default function Home() {
       "React.js",
       "Next.js (SSR v.14)",
       "React Native",
+      "React Native Expo",
       "Redux (RTK + Query)",
       "Redux Saga / Persist",
       "JEST Testing"
     ],
     styling: [
       "Tailwind CSS",
-      "Material UI",
+      "shadcn/ui",
       "Bootstrap",
       "Pure CSS"
     ],
@@ -58,6 +61,15 @@ export default function Home() {
       "Domains Setup",
       "Mail Servers Setup",
       "Version Control (Git)"
+    ],
+    aiTools: [
+      "Claude AI CLI",
+      "Claude Desktop",
+      "Claude Skills",
+      "MCPs Integration",
+      "ChatGPT",
+      "Figma Design",
+      "Make AI Automation"
     ]
   }
 
@@ -261,11 +273,13 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Technical Skills</h2>
+            <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Technical Skills</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               My expertise across the full development stack
             </p>
           </motion.div>
+
+          <TechLogos />
 
           <motion.div
             initial="initial"
@@ -393,6 +407,36 @@ export default function Home() {
                 </CardContent>
               </Card>
             </motion.div>
+
+            <motion.div variants={fadeInUp}>
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <div className="p-2 bg-violet-500/10 rounded-lg">
+                      <Sparkles className="h-5 w-5 text-violet-500" />
+                    </div>
+                    AI & Automation Tools
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.aiTools.map((skill, index) => (
+                      <motion.div
+                        key={skill}
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: index * 0.05 }}
+                        viewport={{ once: true }}
+                      >
+                        <Badge variant="secondary" className="text-sm">
+                          {skill}
+                        </Badge>
+                      </motion.div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -407,7 +451,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Work Experience</h2>
+            <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Work Experience</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               10+ years of professional software development
             </p>
@@ -478,7 +522,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Education</h2>
+            <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Education</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               Academic background and professional certifications
             </p>
@@ -525,7 +569,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Let's Connect</h2>
+            <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Let's Connect</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               Feel free to reach out for collaborations or just a friendly chat
             </p>
