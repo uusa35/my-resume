@@ -226,13 +226,13 @@ export default function Home() {
             variants={fadeInUp}
             className="flex flex-wrap justify-center gap-4"
           >
-            <Button size="lg" asChild className="gap-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+            <Button size="lg" variant="outline" asChild className="gap-2">
               <a href="/resume-updated.pdf" download="Usama_Ahmed_Resume.pdf">
                 <Download className="h-5 w-5" />
                 Download Resume
               </a>
             </Button>
-            <Button size="lg" asChild className="gap-2">
+            <Button size="lg" variant="outline" asChild className="gap-2">
               <a href={`mailto:Uusa35@gmail.com`}>
                 <Mail className="h-5 w-5" />
                 Email Me
