@@ -9,6 +9,7 @@ import { Separator } from "@/components/ui/separator"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { AnimatedBackground } from "@/components/animated-background"
 import { BlurryNav } from "@/components/blurry-nav"
+import { ScrollToTop } from "@/components/scroll-to-top"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -274,7 +275,7 @@ export default function Home() {
             className="grid md:grid-cols-2 gap-6"
           >
             <motion.div variants={fadeInUp}>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-blue-500/10 rounded-lg">
@@ -304,7 +305,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div variants={fadeInUp}>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-purple-500/10 rounded-lg">
@@ -334,7 +335,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div variants={fadeInUp}>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-green-500/10 rounded-lg">
@@ -364,7 +365,7 @@ export default function Home() {
             </motion.div>
 
             <motion.div variants={fadeInUp}>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-orange-500/10 rounded-lg">
@@ -421,7 +422,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="hover:shadow-xl transition-all duration-300 border-2">
+                <Card className="hover:shadow-xl transition-all duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                   <CardHeader>
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                       <div>
@@ -468,7 +469,7 @@ export default function Home() {
       </section>
 
       {/* Education Section */}
-      <section className="py-20 px-6">
+      <section id="education" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -495,7 +496,7 @@ export default function Home() {
                 key={edu.institution}
                 variants={fadeInUp}
               >
-                <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2">
+                <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                   <CardHeader>
                     <div className="mb-4">
                       <div className="p-3 bg-blue-500/10 rounded-lg inline-block">
@@ -515,7 +516,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20">
+      <section id="contact" className="py-20 px-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -536,7 +537,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <Card className="border-2 shadow-2xl">
+            <Card className="border-2 shadow-2xl backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
               <CardContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <motion.a
@@ -669,7 +670,7 @@ export default function Home() {
         href={whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl z-40 group"
+        className="fixed bottom-24 right-6 p-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl z-40 group"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         whileHover={{ scale: 1.1 }}
@@ -681,6 +682,9 @@ export default function Home() {
           Chat on WhatsApp
         </span>
       </motion.a>
+
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
     </div>
   )
 }
