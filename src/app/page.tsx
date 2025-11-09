@@ -14,15 +14,15 @@ import { TechLogos } from "@/components/tech-logos"
 import { GlowingText } from "@/components/glowing-text"
 
 const fadeInUp = {
-  initial: { opacity: 0, y: 60 },
+  initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6 }
+  transition: { duration: 0.3 }
 }
 
 const stagger = {
   animate: {
     transition: {
-      staggerChildren: 0.1
+      staggerChildren: 0.05
     }
   }
 }
@@ -154,11 +154,11 @@ export default function Home() {
           <motion.div
             className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/10 dark:bg-blue-500/5 rounded-full blur-3xl"
             animate={{
-              scale: [1, 1.2, 1],
-              opacity: [0.3, 0.5, 0.3],
+              scale: [1, 1.1, 1],
+              opacity: [0.3, 0.4, 0.3],
             }}
             transition={{
-              duration: 8,
+              duration: 4,
               repeat: Infinity,
               ease: "easeInOut"
             }}
@@ -166,14 +166,14 @@ export default function Home() {
           <motion.div
             className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500/10 dark:bg-purple-500/5 rounded-full blur-3xl"
             animate={{
-              scale: [1.2, 1, 1.2],
-              opacity: [0.3, 0.5, 0.3],
+              scale: [1.1, 1, 1.1],
+              opacity: [0.3, 0.4, 0.3],
             }}
             transition={{
-              duration: 8,
+              duration: 4,
               repeat: Infinity,
               ease: "easeInOut",
-              delay: 1
+              delay: 0.5
             }}
           />
         </div>
@@ -256,14 +256,14 @@ export default function Home() {
         {/* Scroll indicator */}
         <motion.div
           className="absolute bottom-10 left-1/2 -translate-x-1/2"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
+          animate={{ y: [0, 8, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity }}
         >
           <div className="w-6 h-10 border-2 border-gray-400 dark:border-gray-600 rounded-full flex justify-center pt-2">
             <motion.div
               className="w-1.5 h-1.5 bg-gray-400 dark:bg-gray-600 rounded-full"
-              animate={{ y: [0, 12, 0] }}
-              transition={{ duration: 2, repeat: Infinity }}
+              animate={{ y: [0, 10, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity }}
             />
           </div>
         </motion.div>
@@ -275,7 +275,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
             className="text-center mb-16"
           >
@@ -306,18 +306,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {skills.backend.map((skill, index) => (
-                      <motion.div
-                        key={skill}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.05 }}
-                        viewport={{ once: true }}
-                      >
-                        <Badge variant="secondary" className="text-sm">
-                          {skill}
-                        </Badge>
-                      </motion.div>
+                    {skills.backend.map((skill) => (
+                      <Badge key={skill} variant="secondary" className="text-sm">
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
@@ -336,18 +328,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {skills.frontend.map((skill, index) => (
-                      <motion.div
-                        key={skill}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.05 }}
-                        viewport={{ once: true }}
-                      >
-                        <Badge variant="secondary" className="text-sm">
-                          {skill}
-                        </Badge>
-                      </motion.div>
+                    {skills.frontend.map((skill) => (
+                      <Badge key={skill} variant="secondary" className="text-sm">
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
@@ -366,18 +350,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {skills.styling.map((skill, index) => (
-                      <motion.div
-                        key={skill}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.05 }}
-                        viewport={{ once: true }}
-                      >
-                        <Badge variant="secondary" className="text-sm">
-                          {skill}
-                        </Badge>
-                      </motion.div>
+                    {skills.styling.map((skill) => (
+                      <Badge key={skill} variant="secondary" className="text-sm">
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
@@ -396,18 +372,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {skills.devOps.map((skill, index) => (
-                      <motion.div
-                        key={skill}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.05 }}
-                        viewport={{ once: true }}
-                      >
-                        <Badge variant="secondary" className="text-sm">
-                          {skill}
-                        </Badge>
-                      </motion.div>
+                    {skills.devOps.map((skill) => (
+                      <Badge key={skill} variant="secondary" className="text-sm">
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
@@ -426,18 +394,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {skills.aiTools.map((skill, index) => (
-                      <motion.div
-                        key={skill}
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.05 }}
-                        viewport={{ once: true }}
-                      >
-                        <Badge variant="secondary" className="text-sm">
-                          {skill}
-                        </Badge>
-                      </motion.div>
+                    {skills.aiTools.map((skill) => (
+                      <Badge key={skill} variant="secondary" className="text-sm">
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
@@ -453,7 +413,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
             className="text-center mb-16"
           >
@@ -467,9 +427,9 @@ export default function Home() {
             {experiences.map((experience, index) => (
               <motion.div
                 key={experience.company}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
+                transition={{ duration: 0.3, delay: index * 0.05 }}
                 viewport={{ once: true }}
               >
                 <Card className="hover:shadow-xl transition-all duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
@@ -497,17 +457,13 @@ export default function Home() {
                   <CardContent>
                     <ul className="space-y-2">
                       {experience.highlights.map((highlight, i) => (
-                        <motion.li
+                        <li
                           key={i}
-                          initial={{ opacity: 0, x: -20 }}
-                          whileInView={{ opacity: 1, x: 0 }}
-                          transition={{ delay: i * 0.1 }}
-                          viewport={{ once: true }}
                           className="flex gap-3 text-gray-700 dark:text-gray-300"
                         >
                           <span className="text-blue-500 mt-1.5">•</span>
                           <span>{highlight}</span>
-                        </motion.li>
+                        </li>
                       ))}
                     </ul>
                   </CardContent>
@@ -524,7 +480,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
             className="text-center mb-16"
           >
@@ -571,7 +527,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
             className="text-center mb-12"
           >
@@ -582,9 +538,9 @@ export default function Home() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
           >
             <Card className="border-2 shadow-2xl backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
@@ -683,7 +639,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             viewport={{ once: true }}
           >
             <p className="text-gray-600 dark:text-gray-400 mb-4">
