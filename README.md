@@ -201,41 +201,6 @@ This repository contains the source code for my personal portfolio and resume we
 
 ---
 
-## 🎨 Customization
-
-### Editing Content
-
-To update the resume content, edit the following file:
-- `src/app/page.tsx` - Contains all resume data (skills, experience, education, contact info)
-
-### Styling
-
-- **Colors**: Modify `tailwind.config.ts` for color schemes
-- **Fonts**: Update `src/app/layout.tsx` for font families
-- **Animations**: Adjust animation parameters in `src/app/page.tsx`
-
-### Components
-
-All custom components are located in `src/components/`:
-- `animated-background.tsx` - Animated gradient background
-- `blurry-nav.tsx` - Navigation bar with blur effect
-- `scroll-to-top.tsx` - Scroll to top button
-- `tech-logos.tsx` - Technology logos display
-- `glowing-text.tsx` - Text with glow effect
-- `theme-toggle.tsx` - Dark/light mode toggle
-
----
-
-## 🎯 Performance Optimizations
-
-- ⚡ **Reduced Animation Overhead** - Optimized Framer Motion animations
-- 🎨 **CSS Transitions** - Used CSS transitions over JS animations where possible
-- 📦 **Code Splitting** - Automatic code splitting with Next.js
-- 🖼️ **Image Optimization** - Next.js Image component for optimized images
-- 🚀 **Fast Refresh** - Instant feedback during development
-
----
-
 ## 📝 License
 
 This project is open source and available for personal and commercial use.
