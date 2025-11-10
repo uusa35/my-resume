@@ -239,29 +239,17 @@ export default function Home() {
       {/* Skills Section */}
       <section id="skills" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+          <div className="text-center mb-16">
             <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Technical Skills</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               My expertise across the full development stack
             </p>
-          </motion.div>
+          </div>
 
           <TechLogos />
 
-          <motion.div
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            variants={stagger}
-            className="grid md:grid-cols-2 gap-6"
-          >
-            <motion.div variants={fadeInUp}>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
               <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -281,9 +269,9 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
-            </motion.div>
+            </div>
 
-            <motion.div variants={fadeInUp}>
+            <div>
               <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -303,9 +291,9 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
-            </motion.div>
+            </div>
 
-            <motion.div variants={fadeInUp}>
+            <div>
               <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -325,9 +313,9 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
-            </motion.div>
+            </div>
 
-            <motion.div variants={fadeInUp}>
+            <div>
               <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -347,9 +335,9 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
-            </motion.div>
+            </div>
 
-            <motion.div variants={fadeInUp}>
+            <div>
               <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
@@ -369,36 +357,24 @@ export default function Home() {
                   </div>
                 </CardContent>
               </Card>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Work Experience Section */}
       <section id="experience" className="py-20 px-6 bg-gray-50/50 dark:bg-gray-900/50">
         <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+          <div className="text-center mb-16">
             <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Work Experience</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               10+ years of professional software development
             </p>
-          </motion.div>
+          </div>
 
           <div className="space-y-8">
             {experiences.map((experience, index) => (
-              <motion.div
-                key={experience.company}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.2 }}
-                viewport={{ once: true }}
-              >
+              <div key={experience.company}>
                 <Card className="hover:shadow-xl transition-all duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                   <CardHeader>
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
@@ -435,7 +411,7 @@ export default function Home() {
                     </ul>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -444,31 +420,16 @@ export default function Home() {
       {/* Education Section */}
       <section id="education" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
+          <div className="text-center mb-16">
             <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Education</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               Academic background and professional certifications
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            variants={stagger}
-            className="grid md:grid-cols-3 gap-6"
-          >
+          <div className="grid md:grid-cols-3 gap-6">
             {education.map((edu, index) => (
-              <motion.div
-                key={edu.institution}
-                variants={fadeInUp}
-              >
+              <div key={edu.institution}>
                 <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
                   <CardHeader>
                     <div className="mb-4">
@@ -482,34 +443,23 @@ export default function Home() {
                     <p className="text-gray-600 dark:text-gray-400">{edu.institution}</p>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950/20 dark:to-purple-950/20">
         <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
+          <div className="text-center mb-12">
             <GlowingText className="text-4xl md:text-5xl font-bold mb-4">Let's Connect</GlowingText>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               Feel free to reach out for collaborations or just a friendly chat
             </p>
-          </motion.div>
+          </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.2 }}
-            viewport={{ once: true }}
-          >
+          <div>
             <Card className="border-2 shadow-2xl backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
               <CardContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-6">
@@ -586,19 +536,14 @@ export default function Home() {
                 </a>
               </CardContent>
             </Card>
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-gray-200 dark:border-gray-800">
         <div className="max-w-6xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.2 }}
-            viewport={{ once: true }}
-          >
+          <div>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               © {new Date().getFullYear()} Usama Ahmed. Built with Next.js, Tailwind CSS, and shadcn/ui
             </p>
@@ -620,7 +565,7 @@ export default function Home() {
                 <MessageCircle className="h-5 w-5" />
               </a>
             </div>
-          </motion.div>
+          </div>
         </div>
       </footer>
 
