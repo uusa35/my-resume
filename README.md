@@ -1,37 +1,341 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Usama Ahmed - Full Stack Developer
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Mobile & Web Development Expert | 10+ Years Experience**
+
+[📧 Email](mailto:Uusa35@gmail.com) • [💬 WhatsApp](https://wa.me/96565772444) • [🔗 Linktree](https://linktr.ee/usama.ahmed)
+
+</div>
+
+---
+
+## 🚀 About Me
+
+A **Senior-level software engineer** with a passion for computer science and a strong commitment to building products that add value to the community. Looking to join a team of dynamic engineers where I can bring my technical skills and problem-solving abilities to help drive growth and success.
+
+```
+✨ Available for opportunities
+🌍 Based in Kuwait
+📱 +965 65772444 (Kuwait) | +20 1553848624 (Egypt)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💼 Professional Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🏢 Full Stack Developer (Team Lead)
+**The HUB** | Kuwait | 📅 2022 - 2024
 
-## Learn More
+- 🎯 **Autonomy** interpreting business requirements, designing, implementing, and testing high-quality solutions
+- ⚛️ **Design, build and maintain** high performance and reusable code using React
+- 🛒 **Building startup websites** (e-commerce sites) with dashboard for users and admin with different permissions
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🏢 Full Stack Developer
+**Med Vision** | Kuwait | 📅 2019 - 2022
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔧 **Refactoring** old code and fixing issues for multiple company sites
+- 🏗️ **Building and maintaining** high performance and reusable code
+- 🤝 **Engaging with clients** to understand their needs and achieve them
+- 💻 **Technologies**: React, Next.js, Redux, React Query, Tailwind CSS, MUI
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🏢 Frontend Developer
+**Micro Services Tech co.** | Kuwait | 📅 2017 - 2019
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# my-resume
+- 📐 **Define and implement** technical and design requirements
+- 🔍 **Ensuring core functions** for filtering and sorting data
+- 📊 **Working on Reports department** to view filtered data to clients
+- ⚙️ **Handling React Components** logic code of the brand's platform
+
+---
+
+### 🏢 Backend Developer
+**Ideas owners** | Kuwait | 📅 2014 - 2017
+
+- 👥 **Leading junior developers** to be in time with the project backlog
+- 🔄 **Transforming dashboard** into blade templates using Laravel
+- 🤝 **Responsible for partnership** integration and implementing design & functionality
+- 📈 **Increased scalability**, maintainability, and responsiveness of cross-browser code
+
+---
+
+## 🎓 Education & Certifications
+
+<table>
+  <tr>
+    <td>
+      <h4>🎓 Bachelor's degree (Economics & B.A)</h4>
+      <p><strong>Ain Shames University</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>📜 PHP Code Principles Diploma</h4>
+      <p><strong>American University in Cairo (AUC)</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>💻 Website Development Diploma</h4>
+      <p><strong>YAT Institute</strong></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Technical Skills
+
+### 🔙 Backend Development
+```
+🐘 Laravel (Inertia)       🔧 PHP
+🧪 PEST & Unit Testing     📡 API Development
+🗄️ MySQL DBs               🏗️ Database Structure
+```
+
+### ⚛️ Frontend Development
+```
+⚛️ React.js                 🚀 Next.js (SSR v.14)
+📱 React Native             🎯 React Native Expo
+🔄 Redux (RTK + Query)      💾 Redux Saga / Persist
+🧪 JEST Testing
+```
+
+### 🎨 Styling & UI
+```
+💨 Tailwind CSS            🎨 shadcn/ui
+📦 Bootstrap               ✨ Pure CSS
+```
+
+### 🚀 DevOps & Tools
+```
+🌊 Digital Ocean Apps      💾 Storage Management
+🌐 Domains Setup           📧 Mail Servers Setup
+🔀 Version Control (Git)
+```
+
+### 🤖 AI & Automation Tools
+```
+🧠 Claude AI CLI           💬 Claude Desktop
+⚡ Claude Skills           🔌 MCPs Integration
+💡 ChatGPT                 🎨 Figma Design
+🔄 Make AI Automation
+```
+
+---
+
+## 📫 Contact Information
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/fluency/48/000000/mail.png" width="40"/><br/>
+      <strong>Email</strong><br/>
+      <a href="mailto:Uusa35@gmail.com">Uusa35@gmail.com</a>
+    </td>
+    <td align="center">
+      <img src="https://img.icons8.com/fluency/48/000000/phone.png" width="40"/><br/>
+      <strong>Phone (Kuwait)</strong><br/>
+      <a href="tel:+96565772444">+965 65772444</a>
+    </td>
+    <td align="center">
+      <img src="https://img.icons8.com/fluency/48/000000/phone.png" width="40"/><br/>
+      <strong>Phone (Egypt)</strong><br/>
+      <a href="tel:+201553848624">+20 1553848624</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.icons8.com/fluency/48/000000/whatsapp.png" width="40"/><br/>
+      <strong>WhatsApp</strong><br/>
+      <a href="https://wa.me/96565772444">Message Me</a>
+    </td>
+    <td align="center" colspan="2">
+      <img src="https://img.icons8.com/fluency/48/000000/link.png" width="40"/><br/>
+      <strong>All Links</strong><br/>
+      <a href="https://linktr.ee/usama.ahmed">linktr.ee/usama.ahmed</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🌐 Portfolio Website
+
+This repository contains the source code for my personal portfolio and resume website built with modern web technologies.
+
+### ✨ Features
+
+- 🎨 **Modern Design** - Clean and professional UI with dark mode support
+- 📱 **Fully Responsive** - Optimized for all devices and screen sizes
+- ⚡ **Performance Optimized** - Fast loading and smooth animations
+- 🎭 **Framer Motion Animations** - Subtle and engaging animations
+- 🌙 **Dark Mode** - Toggle between light and dark themes
+- 📊 **Interactive Sections** - Skills, Experience, Education, and Contact
+- 🔝 **Scroll to Top** - Easy navigation for better UX
+- 💬 **Floating WhatsApp Button** - Quick access to contact
+
+### 🛠️ Tech Stack
+
+<div align="center">
+
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) |
+| **Language** | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **Styling** | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![shadcn/ui](https://img.shields.io/badge/-shadcn/ui-000000?style=flat-square) |
+| **Animation** | ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) |
+| **Icons** | ![Lucide](https://img.shields.io/badge/-Lucide_Icons-000000?style=flat-square) |
+| **Deployment** | ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel) |
+
+</div>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js 18.x or higher
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/uusa35/my-resume.git
+   cd my-resume
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+
+4. **Open your browser**
+
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
+
+### Building for Production
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 📂 Project Structure
+
+```
+my-resume/
+├── 📁 src/
+│   ├── 📁 app/
+│   │   ├── 📄 page.tsx          # Main resume page
+│   │   ├── 📄 layout.tsx        # Root layout
+│   │   └── 📄 globals.css       # Global styles
+│   ├── 📁 components/
+│   │   ├── 📁 ui/               # shadcn/ui components
+│   │   ├── 📄 animated-background.tsx
+│   │   ├── 📄 blurry-nav.tsx
+│   │   ├── 📄 scroll-to-top.tsx
+│   │   ├── 📄 tech-logos.tsx
+│   │   ├── 📄 glowing-text.tsx
+│   │   └── 📄 theme-toggle.tsx
+│   └── 📁 lib/
+│       └── 📄 utils.ts
+├── 📁 public/
+│   └── 📄 resume-updated.pdf    # Downloadable resume
+├── 📄 package.json
+├── 📄 tailwind.config.ts
+├── 📄 next.config.js
+└── 📄 README.md
+```
+
+---
+
+## 🎨 Customization
+
+### Editing Content
+
+To update the resume content, edit the following file:
+- `src/app/page.tsx` - Contains all resume data (skills, experience, education, contact info)
+
+### Styling
+
+- **Colors**: Modify `tailwind.config.ts` for color schemes
+- **Fonts**: Update `src/app/layout.tsx` for font families
+- **Animations**: Adjust animation parameters in `src/app/page.tsx`
+
+### Components
+
+All custom components are located in `src/components/`:
+- `animated-background.tsx` - Animated gradient background
+- `blurry-nav.tsx` - Navigation bar with blur effect
+- `scroll-to-top.tsx` - Scroll to top button
+- `tech-logos.tsx` - Technology logos display
+- `glowing-text.tsx` - Text with glow effect
+- `theme-toggle.tsx` - Dark/light mode toggle
+
+---
+
+## 🎯 Performance Optimizations
+
+- ⚡ **Reduced Animation Overhead** - Optimized Framer Motion animations
+- 🎨 **CSS Transitions** - Used CSS transitions over JS animations where possible
+- 📦 **Code Splitting** - Automatic code splitting with Next.js
+- 🖼️ **Image Optimization** - Next.js Image component for optimized images
+- 🚀 **Fast Refresh** - Instant feedback during development
+
+---
+
+## 📝 License
+
+This project is open source and available for personal and commercial use.
+
+---
+
+## 🤝 Let's Connect!
+
+I'm always open to discussing new opportunities, collaborations, or just having a friendly chat about technology!
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-Uusa35@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Uusa35@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-+965_65772444-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/96565772444)
+[![Linktree](https://img.shields.io/badge/Linktree-All_Links-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/usama.ahmed)
+
+---
+
+⭐ **Built with passion using Next.js, React, TypeScript, and Tailwind CSS** ⭐
+
+Made with ❤️ by Usama Ahmed
+
+</div>
