@@ -89,22 +89,11 @@ const techStack = [
 
 export function TechLogos() {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      viewport={{ once: true }}
-      className="mb-12"
-    >
+    <div className="mb-12">
       <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-        {techStack.map((tech, index) => (
-          <motion.div
+        {techStack.map((tech) => (
+          <div
             key={tech.name}
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ delay: index * 0.1 }}
-            viewport={{ once: true }}
-            whileHover={{ scale: 1.1, y: -5 }}
             className="flex flex-col items-center gap-2 group"
           >
             <div className="w-12 h-12 md:w-16 md:h-16 text-gray-700 dark:text-gray-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
@@ -113,9 +102,9 @@ export function TechLogos() {
             <span className="text-xs md:text-sm font-medium text-gray-600 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-gray-100 transition-colors">
               {tech.name}
             </span>
-          </motion.div>
+          </div>
         ))}
       </div>
-    </motion.div>
+    </div>
   )
 }
