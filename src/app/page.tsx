@@ -12,6 +12,7 @@ import { BlurryNav } from "@/components/blurry-nav"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { TechLogos } from "@/components/tech-logos"
 import { GlowingText } from "@/components/glowing-text"
+import { Analytics } from "@vercel/analytics/next"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
@@ -587,6 +588,9 @@ export default function Home() {
 
       {/* Scroll to Top Button */}
       <ScrollToTop />
+
+      {/* Analytics */}
+      <Analytics />
     </div>
   )
 }
