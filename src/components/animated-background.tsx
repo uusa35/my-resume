@@ -21,19 +21,19 @@ export function AnimatedBackground() {
       {/* Subtle shine/shimmer overlay */}
       <div className="absolute inset-0 bg-gradient-to-tr from-white/5 via-transparent to-white/5 dark:from-white/2 dark:via-transparent dark:to-white/2" />
 
-      {/* Elegant grid pattern */}
+      {/* Islamic Geometric Pattern - Star and Polygon */}
       <div
-        className="absolute inset-0 opacity-[0.12] dark:opacity-[0.06]"
+        className="absolute inset-0 opacity-[0.15] dark:opacity-[0.08]"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='grid' width='60' height='60' patternUnits='userSpaceOnUse'%3E%3Cpath d='M 60 0 L 0 0 0 60' fill='none' stroke='%236366f1' stroke-width='0.5' stroke-opacity='0.3'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grid)'/%3E%3C/svg%3E")`,
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='islamic-pattern' x='0' y='0' width='200' height='200' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%234f46e5' stroke-width='0.8' fill='none' opacity='0.4'%3E%3C!-- Central 8-pointed star --%3E%3Cpath d='M100,40 L110,70 L140,70 L115,90 L125,120 L100,105 L75,120 L85,90 L60,70 L90,70 Z'/%3E%3C!-- Surrounding geometric shapes --%3E%3Cpolygon points='100,0 120,20 100,40 80,20'/%3E%3Cpolygon points='200,100 180,120 160,100 180,80'/%3E%3Cpolygon points='100,200 80,180 100,160 120,180'/%3E%3Cpolygon points='0,100 20,80 40,100 20,120'/%3E%3C!-- Corner decorations --%3E%3Ccircle cx='0' cy='0' r='15'/%3E%3Ccircle cx='200' cy='0' r='15'/%3E%3Ccircle cx='200' cy='200' r='15'/%3E%3Ccircle cx='0' cy='200' r='15'/%3E%3C!-- Connecting lines --%3E%3Cline x1='40' y1='40' x2='60' y2='60'/%3E%3Cline x1='160' y1='40' x2='140' y2='60'/%3E%3Cline x1='160' y1='160' x2='140' y2='140'/%3E%3Cline x1='40' y1='160' x2='60' y2='140'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23islamic-pattern)'/%3E%3C/svg%3E")`,
         }}
       />
 
-      {/* Dot pattern for texture */}
+      {/* Secondary Islamic Pattern - Interlocking Hexagons */}
       <div
-        className="absolute inset-0 opacity-[0.08] dark:opacity-[0.04]"
+        className="absolute inset-0 opacity-[0.1] dark:opacity-[0.05]"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='30' height='30' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1' cy='1' r='1' fill='%234f46e5' fill-opacity='0.4'/%3E%3C/svg%3E")`,
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='104' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='hexagon-pattern' x='0' y='0' width='120' height='104' patternUnits='userSpaceOnUse'%3E%3Cg stroke='%236366f1' stroke-width='0.6' fill='none' opacity='0.3'%3E%3Cpath d='M30,0 L60,0 L75,26 L60,52 L30,52 L15,26 Z'/%3E%3Cpath d='M90,26 L120,26 L135,52 L120,78 L90,78 L75,52 Z'/%3E%3Cpath d='M30,52 L60,52 L75,78 L60,104 L30,104 L15,78 Z'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23hexagon-pattern)'/%3E%3C/svg%3E")`,
         }}
       />
 
