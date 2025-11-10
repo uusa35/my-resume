@@ -228,11 +228,7 @@ export default function Home() {
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
           <div className="w-6 h-10 border-2 border-gray-400 dark:border-gray-600 rounded-full flex justify-center pt-2">
-            <motion.div
-              className="w-1.5 h-1.5 bg-gray-400 dark:bg-gray-600 rounded-full"
-              animate={{ y: [0, 12, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-            />
+            <div className="w-1.5 h-1.5 bg-gray-400 dark:bg-gray-600 rounded-full" />
           </div>
         </div>
       </section>
@@ -251,7 +247,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-blue-500/10 rounded-lg">
@@ -273,7 +269,7 @@ export default function Home() {
             </div>
 
             <div>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-purple-500/10 rounded-lg">
@@ -295,7 +291,7 @@ export default function Home() {
             </div>
 
             <div>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-green-500/10 rounded-lg">
@@ -317,7 +313,7 @@ export default function Home() {
             </div>
 
             <div>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-orange-500/10 rounded-lg">
@@ -339,7 +335,7 @@ export default function Home() {
             </div>
 
             <div>
-              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+              <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <div className="p-2 bg-violet-500/10 rounded-lg">
@@ -376,7 +372,7 @@ export default function Home() {
           <div className="space-y-8">
             {experiences.map((experience, index) => (
               <div key={experience.company}>
-                <Card className="hover:shadow-xl transition-all duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+                <Card className="hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                   <CardHeader>
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                       <div>
@@ -431,7 +427,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {education.map((edu, index) => (
               <div key={edu.institution}>
-                <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+                <Card className="h-full hover:shadow-xl transition-shadow duration-300 border-2 bg-white dark:bg-gray-900">
                   <CardHeader>
                     <div className="mb-4">
                       <div className="p-3 bg-blue-500/10 rounded-lg inline-block">
@@ -461,7 +457,7 @@ export default function Home() {
           </div>
 
           <div>
-            <Card className="border-2 shadow-2xl backdrop-blur-md bg-white/60 dark:bg-gray-900/60">
+            <Card className="border-2 shadow-2xl bg-white dark:bg-gray-900">
               <CardContent className="pt-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <a
