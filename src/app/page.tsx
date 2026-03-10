@@ -29,7 +29,7 @@ const stagger = {
 }
 
 export default function Home() {
-  const whatsappNumber = "+96565772444"
+  const whatsappNumber = "+96555030971"
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/[^0-9]/g, '')}`
 
   const skills = {
@@ -482,7 +482,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-semibold">Phone (Kuwait)</p>
-                      <p className="text-sm text-gray-600 dark:text-gray-400">+965 65772444</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">+965 55030971</p>
                     </div>
                   </a>
 
